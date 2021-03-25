@@ -1,0 +1,667 @@
+@media (min-width: 320px) and (max-width: 575px) {
+    .title p{
+        width: auto;
+        padding: 0 10px;
+    }
+    header span{
+        display: block;
+        text-align: center;
+    }
+    header a{
+        display: block;
+        text-align: center;
+    }
+    header p{
+        text-align: center;
+    }
+    header a.active{
+        display: inline-block;
+    }
+    header a.login{
+        display: inline-block;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0rem;
+    }
+    nav i{
+        margin-top: 20px;
+    }
+    nav ul{
+        background: #2d3e50;
+        margin-top: 15px !important;
+        text-align: center;
+        padding-top: 10px;
+    }
+    nav ul li{
+        margin-left: 15px;
+    }
+    nav ul li a{
+        color: #fff;
+
+    }
+    nav .button{
+        background: #2d3e50;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    nav .button a{
+        padding: 15px;
+        font-size: 16px;
+        transition: all linear .4s;
+    }
+    nav .button a:hover{
+        background: #fff;
+        color: #2d3e50;
+    }
+    /* ========================
+        Banner part start
+    ========================== */
+    #banner-part .banner .overlay{
+        padding-top: 50px;
+        padding-bottom: 160px;
+    }
+    #banner-part .banner .overlay h2{
+        font-size: 30px;
+    }
+    #banner-part .banner .overlay h1{
+        font-size: 42px;
+    }
+    #banner-part .banner .overlay p{
+        width: auto;
+        margin-top: 20px;
+    }
+    #banner-part .banner .overlay .button{
+        margin-top: 45px;
+    }
+    #banner-part .banner .overlay .button a{
+        margin-right: 15px;
+        padding: 18px;
+        font-size: 16px;
+    }
+    #banner-part .banner-slider{
+        position: relative;
+    }
+    #banner-part .banner-slider .slick-dots{
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    #banner-part .banner-slider ul li {
+        display: inline-block;
+        font-size: 0;
+        margin-right: 10px;
+        
+    }
+    #banner-part .banner-slider ul li button{
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 50%;
+    }
+    #banner-part .banner-slider .slick-active button{
+        background: #fbaa33;
+        border: 1px solid #fbaa33;
+    }
+
+    #about-part{
+        margin-top: -80px;
+    }
+    #about-part .about-slider::after{
+       display: none;
+    }
+    #about-part .about-slider::before{
+        display: none;
+    }
+    #about-part .about-shape::after{
+        display: none;
+    }
+    #about-part .about-shape::before{
+        display: none;
+    }
+    #about-part .text p{
+        width: auto;
+    }
+    #about-part .button {
+        margin-top: 30px;
+        text-align: center;
+    }
+    #about-part .button a{
+        font-size: 18px;
+        padding: 15px;
+        margin-right: 10px;
+    }
+    #counter-part{
+       margin-top: -50px;
+    }
+    #counter-part .item h6::after{
+        display: none;
+    }
+    #counter-part .item h6::before{
+        display: none;
+    }
+    #counter-part{
+        padding: 30px 0;
+        padding-top: 40px;
+    }
+    #counter-part .item{
+        margin-bottom: 20px;
+    }
+    #course-part{
+        padding-top: 50px;
+    }
+    #course-part .course-slider .item{
+        margin-top: 30px;
+    }
+    #course-part .course-slider .item .details h3{
+        font-size: 23px;
+    }
+    #course-part .course-slider .item .button a{
+        padding: 15px;
+        font-size: 14px;
+    }
+    #course-part .course-slider .slick-center .button a{
+        background: #2d3e50;
+    }
+    #course-part .course-slider .item .intro{
+        flex-direction: column;
+        padding-left: 78px;
+    }
+    #course-part .course-slider .item .intro .name p.title{
+        text-align-last: left;
+    }
+    #course-part .course-slider .item .intro .name p.title{
+        font-size: 16px;
+    }
+    #course-part .course-slider .item .intro .name p.name{
+        font-size: 20px;
+    }
+    #course-part .course-slider .item .intro .rating{
+        margin-top: 10px;
+        text-align-last: left;
+    }
+    #event-part {
+        padding: 50px 0;
+        padding-bottom: 30px;
+    }
+    #event-part .title p{
+        margin-bottom: 30px;
+    }
+    #event-part .item{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    #event-part .item .img{
+        width: 100%;
+    }
+    #event-part .item .text h4{
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    #event-part .item .text p{
+        font-size: 12px;
+        width: 250px;
+    }
+    #event-part .item .text span.seminar{
+        margin-right: 33px;
+    }
+    #event-part .item .text i.fa-clock{
+        margin-left: 0;
+    }
+    #event-part .item .text a{
+        padding: 10px 15px;
+    }
+    #testi-part{
+        padding: 30px 0;
+        padding-bottom: 10px;
+    }
+    #testi-part .title p{
+        margin-bottom: 0;
+    }
+    #testi-part .testi-text-slider .item p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+    #testi-part .testi-text-slider .item h3{
+        font-size: 16px;
+    }
+    #testi-part .testi-text-slider .item span{
+        font-size: 12px;
+    }
+    #testi-part .testi-text-slider .item .icon i{
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    #teacher-part{
+        padding-top: 33px;
+        padding-bottom: 30px;
+    }
+    #teacher-part .item{
+        margin-top: 30px;
+    }
+    #teacher-part .item .img .teacher-text-hover .icon i{
+        opacity: 1;
+    }
+    #teacher-part .item .img .teacher-text-hover .name{
+        opacity: 1;
+    }
+    #teacher-part .item .img .teacher-text-hover .regency{
+        opacity: 1;
+    }
+    #teacher-part .item .img .teacher-text-hover .regency::before{
+        opacity: 1;
+    }
+    #teacher-part .item .teacher-text{
+        opacity: 0;
+    }
+    #blog-button-part .item .overlay .details{
+        display: none;
+    }
+    /* #blog-button-part .item .overlay .details .date{
+        width: 42%;
+        font-size: 13px;
+    }
+    #blog-button-part .item .overlay .details .view{
+        width: 30%;
+        font-size: 12px;
+        margin-top: 19px;
+    }
+    #blog-button-part .item .overlay .details .share{
+        width: 25%;
+        font-size: 12px;
+    } */
+    #blog-button-part .item .icon{
+        top: 10px;
+        right: 10px;
+    }
+    #blog-button-part .item .icon i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    footer{
+        margin-top: -140px;
+        text-align: center;
+    }
+    footer h3{
+        margin-top: 20px;
+    }
+    footer .contant p{
+        margin-top: 20px;
+    }
+    footer .link ul{
+        margin: 20px 0;
+        margin-bottom: 0;
+    }
+    footer .link ul li{
+        margin-top: 20px;
+    }
+    footer h3{
+        margin-top: 40px;
+    }
+    footer .info{
+        margin-top: 0;
+    }
+    footer .info ul{
+        flex-direction: column;
+    }
+    footer .info ul li i{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    footer .info ul li p{
+        font-size: 14px;
+    }
+    footer .footer-slider .item{
+        margin-top: 20px;
+    }
+    footer .footer-slider .item:hover .overlay{
+        opacity: 0;
+    }
+    footer .copyright p{
+        font-size: 12px;
+    }
+    /* ==================== */
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .title p{
+        width: auto;
+        padding: 0 10px;
+    }
+    header span{
+        display: block;
+        text-align: center;
+    }
+    header a{
+        display: block;
+        text-align: center;
+    }
+    header p{
+        text-align: center;
+    }
+    header a.active{
+        display: inline-block;
+    }
+    header a.login{
+        display: inline-block;
+    }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0rem;
+    }
+    nav{
+        margin-bottom: 0;
+    }
+    .navbar{
+        padding-bottom: 0;
+    }
+    nav i{
+        margin-top: 20px;
+    }
+    nav ul{
+        background: #2d3e50;
+        margin-top: 15px !important;
+        text-align: center;
+        padding-top: 10px;
+    }
+    nav ul li{
+        margin-left: 15px;
+    }
+    nav ul li a{
+        color: #fff;
+
+    }
+    nav .button{
+        background: #2d3e50;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    nav .button a{
+        padding: 15px;
+        font-size: 16px;
+        transition: all linear .4s;
+    }
+    nav .button a:hover{
+        background: #fff;
+        color: #2d3e50;
+    }
+    /* ========================
+        Banner part start
+    ========================== */
+    #banner-part .banner .overlay{
+        padding-top: 50px;
+        padding-bottom: 160px;
+    }
+    #banner-part .banner .overlay h2{
+        font-size: 30px;
+    }
+    #banner-part .banner .overlay h1{
+        font-size: 42px;
+    }
+    #banner-part .banner .overlay p{
+        width: auto;
+        margin-top: 20px;
+    }
+    #banner-part .banner .overlay .button{
+        margin-top: 45px;
+    }
+    #banner-part .banner .overlay .button a{
+        margin-right: 15px;
+        padding: 18px;
+        font-size: 16px;
+    }
+    #banner-part .banner-slider{
+        position: relative;
+    }
+    #banner-part .banner-slider .slick-dots{
+        position: absolute;
+        bottom: 84px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    #banner-part .banner-slider ul li {
+        display: inline-block;
+        font-size: 0;
+        margin-right: 10px;
+        
+    }
+    #banner-part .banner-slider ul li button{
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 50%;
+    }
+    #banner-part .banner-slider .slick-active button{
+        background: #fbaa33;
+        border: 1px solid #fbaa33;
+    }
+    #banner-bottom .item{
+        transform: translateY(-33%);
+    }
+
+    #about-part{
+        margin-top: -80px;
+    }
+    #about-part .about-slider::after{
+       display: none;
+    }
+    #about-part .about-slider::before{
+        display: none;
+    }
+    #about-part .about-shape::after{
+        display: none;
+    }
+    #about-part .about-shape::before{
+        display: none;
+    }
+    #about-part .text p{
+        width: auto;
+    }
+    #about-part .button {
+        margin-top: 30px;
+        text-align: center;
+    }
+    #about-part .button a{
+        font-size: 18px;
+        padding: 15px;
+        margin-right: 10px;
+    }
+    #counter-part{
+       margin-top: -50px;
+    }
+    #counter-part .item h6::after{
+        display: none;
+    }
+    #counter-part .item h6::before{
+        display: none;
+    }
+    #counter-part{
+        padding: 30px 0;
+        padding-top: 40px;
+    }
+    #counter-part .item{
+        margin-bottom: 20px;
+    }
+    #course-part{
+        padding-top: 50px;
+    }
+    #course-part .course-slider .item{
+        margin-top: 30px;
+    }
+    #course-part .course-slider .item .details h3{
+        font-size: 23px;
+    }
+    #course-part .course-slider .item .button a{
+        padding: 15px;
+        font-size: 14px;
+    }
+    #course-part .course-slider .slick-center .button a{
+        background: #2d3e50;
+    }
+    #course-part .course-slider .item .intro{
+        flex-direction: column;
+        padding-left: 78px;
+    }
+    #course-part .course-slider .item .intro .name p.title{
+        text-align-last: left;
+    }
+    #course-part .course-slider .item .intro .name p.title{
+        font-size: 16px;
+    }
+    #course-part .course-slider .item .intro .name p.name{
+        font-size: 20px;
+    }
+    #course-part .course-slider .item .intro .rating{
+        margin-top: 10px;
+        text-align-last: left;
+    }
+    #event-part {
+        padding: 50px 0;
+        padding-bottom: 30px;
+    }
+    #event-part .title p{
+        margin-bottom: 30px;
+    }
+    #event-part .item{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    #event-part .item .img{
+        width: 100%;
+    }
+    #event-part .item .text h4{
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    #event-part .item .text p{
+        font-size: 12px;
+        width: 250px;
+    }
+    #event-part .item .text span.seminar{
+        margin-right: 33px;
+    }
+    #event-part .item .text i.fa-clock{
+        margin-left: 0;
+    }
+    #event-part .item .text a{
+        padding: 10px 15px;
+    }
+    #testi-part{
+        padding: 30px 0;
+        padding-bottom: 10px;
+    }
+    #testi-part .title p{
+        margin-bottom: 0;
+    }
+    #testi-part .testi-text-slider .item p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 280px;
+    }
+    #testi-part .testi-text-slider .item h3{
+        font-size: 16px;
+    }
+    #testi-part .testi-text-slider .item span{
+        font-size: 12px;
+    }
+    #testi-part .testi-text-slider .item .icon i{
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    #teacher-part{
+        padding-top: 33px;
+        padding-bottom: 30px;
+    }
+    #teacher-part .item{
+        margin-top: 30px;
+    }
+    #teacher-part .item .img .teacher-text-hover .icon i{
+        opacity: 1;
+    }
+    #teacher-part .item .img .teacher-text-hover .name{
+        opacity: 1;
+    }
+    #teacher-part .item .img .teacher-text-hover .regency{
+        opacity: 1;
+    }
+    #teacher-part .item .img .teacher-text-hover .regency::before{
+        opacity: 1;
+    }
+    #teacher-part .item .teacher-text{
+        opacity: 0;
+    }
+    #blog-button-part .item .overlay .details{
+        display: none;
+    }
+    /* #blog-button-part .item .overlay .details .date{
+        width: 42%;
+        font-size: 13px;
+    }
+    #blog-button-part .item .overlay .details .view{
+        width: 30%;
+        font-size: 12px;
+        margin-top: 19px;
+    }
+    #blog-button-part .item .overlay .details .share{
+        width: 25%;
+        font-size: 12px;
+    } */
+    #blog-button-part .item .icon{
+        top: 10px;
+        right: 10px;
+    }
+    #blog-button-part .item .icon i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    footer{
+        margin-top: -140px;
+        text-align: center;
+    }
+    footer h3{
+        margin-top: 20px;
+    }
+    footer .contant p{
+        margin-top: 20px;
+    }
+    footer .link ul{
+        margin: 20px 0;
+        margin-bottom: 0;
+    }
+    footer .link ul li{
+        margin-top: 20px;
+    }
+    footer h3{
+        margin-top: 40px;
+    }
+    footer .info{
+        margin-top: 0;
+    }
+    footer .info ul{
+        flex-direction: column;
+    }
+    footer .info ul li i{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    footer .info ul li p{
+        font-size: 14px;
+    }
+    footer .footer-slider .item{
+        margin-top: 20px;
+    }
+    footer .footer-slider .item:hover .overlay{
+        opacity: 0;
+    }
+    footer .copyright p{
+        font-size: 12px;
+    }
+    /* ==================== */
+}

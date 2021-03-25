@@ -1,0 +1,6 @@
+font-family: 'Arimo', sans-serif;
+
+Regular 400
+Medium 500
+Semi-bold 600
+Bold 700
